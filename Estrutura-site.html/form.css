@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    }
+
+    header {
+    padding: 20px;
+    background-color: #1a8000;
+    color: white;
+    }
+
+footer {
+    padding: 20px;
+    background-color: #428000;
+    color: white;
+    }
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+    }
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    }
+
+input, button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+    }

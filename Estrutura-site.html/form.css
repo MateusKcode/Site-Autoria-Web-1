@@ -5,7 +5,7 @@ body {
     background: #f0f0f0;
     }
 
-    header {
+header {
     padding: 20px;
     background-color: #1a8000;
     color: white;
@@ -21,21 +21,22 @@ footer {
     height: 100vh;
     display: flex;
     justify-content: center;
-      align-items: center;
+    align-items: center;
     }
 
 form {
-    background: white;
+    background: rgb(211, 210, 210);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
     width: 300px;
     }
 
 input, button {
     display: block;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 8px;
     font-size: 16px;
+    width: 275px;
     }

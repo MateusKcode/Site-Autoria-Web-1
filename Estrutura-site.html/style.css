@@ -28,3 +28,39 @@ footer {
 .IFRN {
     height: 100px;
 }
+
+h1 {
+    font-style: normal;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serifç; 
+}
+
+.container {
+  display: flex;
+  gap: 10px; /* espaço entre as divs */
+}
+
+#divr, #divc, #divl {
+  width: 275px;
+  height: 40%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#divr {
+  text-align: right;
+}
+
+#divc {
+  text-align: center;
+}
+
+#divl {
+  text-align: left;
+}
+
+h2 {
+    background-color: rgb(38, 141, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}

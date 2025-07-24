@@ -11,10 +11,20 @@ form.login {
     text-align: center;
     background-color: rgb(255, 255, 255);
     width: 250px;
-    height: 300px;
+    height: 370px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.email {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+    color:rgb(163, 163, 163);
+    text-align: center;
+    width: 230px;
+    height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .enviar {
     color: aliceblue;

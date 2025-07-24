@@ -1,0 +1,85 @@
+html {
+    background-color: rgb(223, 223, 223);
+}
+body.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form.login {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.enviar {
+    color: aliceblue;
+    background-color: rgb(67, 67, 255);
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,2);
+    border: none;
+}
+body {
+    font-family: roboto, sans-serif;
+}
+.nome, .idade, .mora {
+    border-radius: 10px;
+    height: 35px;
+    width: 230px;
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+    border: none;
+}
+.nome {
+    color:rgb(163, 163, 163);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr {
+    width: 250px;
+}
+.introdução {
+    text-align: left;
+    margin: 20px;
+    font-family: reboto, sans-serif;
+}
+.htmlicon {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    font-family: reboto, sans-serif;
+    border: none;
+}
+.cssicon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: reboto, sans-serif;
+    border: none;
+}
+button {
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    font-family: reboto, sans-serif;
+    color:rgb(104, 104, 104);
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+
+/** border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    text-align: left;
+    font-family: reboto, sans-serif;
+    color:rgb(104, 104, 104);
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); **/

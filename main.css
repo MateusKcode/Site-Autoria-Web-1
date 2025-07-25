@@ -84,6 +84,31 @@ button.html, button.imgcss {
     position: relative;
 }
 
+.cabeçalho {
+    background-color: #3837b6;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#logo {
+    padding: 5px;
+    border-color: #3837b6;
+}
+.sair {
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.linguagens {
+    position: absolute;
+    right: center;
+    top: center
+
+}
 
 /** border-radius: 10px;
     width: 300px;

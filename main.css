@@ -103,13 +103,6 @@ button.html, button.imgcss {
     top: 18px;
 }
 
-.linguagens {
-    position: absolute;
-    right: center;
-    top: center
-
-}
-
 /** border-radius: 10px;
     width: 300px;
     height: 350px;
@@ -118,3 +111,18 @@ button.html, button.imgcss {
     color:rgb(104, 104, 104);
     border: none;
     box-shadow: 0 0 10px rgba(0,0,0,0.3); **/
+
+.linguagens {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+.linguagens {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 40px;
+   
+}

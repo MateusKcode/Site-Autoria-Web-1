@@ -1,6 +1,9 @@
 html {
     background-color: rgb(223, 223, 223);
 }
+body{
+    text-align: center;
+}
 body.login {
     display: flex;
     justify-content: center;
@@ -125,4 +128,16 @@ button.html, button.imgcss {
   align-items: center; 
   gap: 40px;
    
+}
+main {
+    text-align: center;
+    justify-content: center;
+}
+tr {
+    border-color: #3837b6;
+    width: 10px;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+    justify-content: center;
 }
